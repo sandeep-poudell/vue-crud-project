@@ -1,24 +1,14 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Clone project and run servers
+```
+1. git clone <project-url>
+2. Run following commands to start rails server and vite+vue server
+   1. rails s
+   2. npm run dev
+```
+Server starts on:
+```
+* backend: http://127.0.0.1:3000/posts
+* frontend: http://localhost:5173/
+```
